@@ -4,32 +4,37 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>VebStudio</title>
+        <link rel="stylesheet" href="./css/styles.css" />
     </head>
 
     <body>
-        <header>
-            <nav>
-                <a href="./index.html" lang="en">WebStudio</a>
-                <ul>
-                    <li><a href="/">Студия</a></li>
-                    <li><a href="/">Портфолио</a></li>
-                    <li><a href="/">Контакты</a></li>
+        <!-- Cltr+/(внизу возле Ю) -->
+        <!-- Навигация -->
+        <header class="page-header">
+            <nav class="page-nav">
+                <a class="logo" href="./index.html" lang="en">WebStudio</a>
+                <ul class="site-nav list">
+                    <li class="menu-item"><a class="menu-link link" href="/">Студия</a></li>
+                    <li class="menu-item"><a class="menu-link link" href="/">Портфолио</a></li>
+                    <li class="menu-item"><a class="menu-link link" href="/">Контакты</a></li>
                 </ul>
             </nav>
-            <ul>
-                <li><a href="meilto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="auth-nav list">
+                <li><a class="contact" href="meilto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </header>
+        <!-- Шапка сайта -->
         <main>
-            <section>
-                <h1>эффективные решения для вашего бизнеса</h1>
+            <section class="hero">
+                <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
                 <button type="button">Заказать услугу</button>
             </section>
+            <!-- Особенности -->
             <section>
                 <h2 class="visually-hidden">преимущества</h2>
-                <ul>
+                <ul class="">
                     <li>
                         <h3>Внимание к деталям</h3>
                         <p>
@@ -60,8 +65,9 @@
                     </li>
                 </ul>
             </section>
-            <section>
-                <h2>Чем мы занимаемся</h2>
+            <!-- Деятельность -->
+            <section class="activity">
+                <h2 class="activity-title">Чем мы занимаемся</h2>
                 <ul>
                     <li>
                         <img src="./images/job/box_1.jpg" alt="дело" width="370" height="294" />
@@ -74,7 +80,8 @@
                     </li>
                 </ul>
             </section>
-            <section>
+            <!-- Команда -->
+            <section class="proficional">
                 <h2>Наша команда</h2>
                 <ul>
                     <li>
@@ -120,6 +127,7 @@
                 </ul>
             </section>
         </main>
+        <!-- Адрес -->
         <footer>
             <address>
                 <a href="/" lang="en">WebStudio</a>

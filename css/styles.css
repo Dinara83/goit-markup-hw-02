@@ -1,6 +1,43 @@
+/* Cltr+/(внизу возле Ю) */
+
+:root {
+    --primary-font 
+    --secondary-font
+    --primary-text-color-theme-dark
+    --primary-text-color-theme-light
+    --secondery-text-color-theme-dark
+    --secondary-text-color-theme-dark
+
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
 body {
-    background-color: teal;
-    color: #fff;
+    font-family: ;
+background-color: #FFFFFF;
+color: #212121;
+}
+
+.logo {
+    color: #000;
+}
+
+.list {
+    list-style: none;
+}
+/* Site nav */
+/* .site-nav .link {
+    color: #212121;
+} */
+
+.site-nav .menu-link:hover {
+    color: #2196F3;
+}
+.auth-nav .contact:hover {
+    color: #2196F3;
 }
 .visually-hidden {
     position: absolute;
@@ -13,3 +50,4 @@ body {
     white-space: nowrap;
     border: 0;
 }
+
