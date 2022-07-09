@@ -1,25 +1,35 @@
 /* Cltr+/(внизу возле Ю) */
-
-:root {
+/* .html {
+    width: 100%;
+    height: 100%;
+} */
+/* :root {
     --primary-font 
     --secondary-font
     --primary-text-color-theme-dark
     --primary-text-color-theme-light
     --secondery-text-color-theme-dark
-    --secondary-text-color-theme-dark
+    --secondary-text-color-theme-dark */
+body {
+  width: 1600px;
+  height: 2349px;
+  font-family: "Raleway", sans-serif
+  background-color: #FFFFFF;
+  color: #212121;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
 
 }
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
 }
-body {
-    font-family: ;
-background-color: #FFFFFF;
-color: #212121;
-}
+
 
 .logo {
     color: #000;

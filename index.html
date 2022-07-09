@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>VebStudio</title>
+        <title>Studio</title>
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
 
@@ -13,28 +13,34 @@
         <!-- Навигация -->
         <header class="page-header">
             <nav class="page-nav">
-                <a class="logo" href="./index.html" lang="en">WebStudio</a>
-                <ul class="site-nav list">
+                <a class="logo-style link" href="/" lang="en"
+                    >Web<span class="logo-studio link">Studio</span></a
+                >
+                <ul class="menu-list list">
                     <li class="menu-item"><a class="menu-link link" href="/">Студия</a></li>
-                    <li class="menu-item"><a class="menu-link link" href="/">Портфолио</a></li>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="./portfolio.html">Портфолио</a>
+                    </li>
                     <li class="menu-item"><a class="menu-link link" href="/">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="auth-nav list">
-                <li><a class="contact" href="meilto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li>
+                    <a class="contact link" href="meilto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li><a class="contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </header>
         <!-- Шапка сайта -->
         <main>
-            <section class="hero">
-                <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
-                <button type="button">Заказать услугу</button>
+            <section class="description list">
+                <h1 class="description-header">эффективные решения для вашего бизнеса</h1>
+                <button class="style-btm" type="button">Заказать услугу</button>
             </section>
             <!-- Особенности -->
-            <section>
+            <section class="visually">
                 <h2 class="visually-hidden">преимущества</h2>
-                <ul class="">
+                <ul class="section-visually list">
                     <li>
                         <h3>Внимание к деталям</h3>
                         <p>
@@ -68,7 +74,7 @@
             <!-- Деятельность -->
             <section class="activity">
                 <h2 class="activity-title">Чем мы занимаемся</h2>
-                <ul>
+                <ul class="section-activity list">
                     <li>
                         <img src="./images/job/box_1.jpg" alt="дело" width="370" height="294" />
                     </li>
@@ -82,8 +88,8 @@
             </section>
             <!-- Команда -->
             <section class="proficional">
-                <h2>Наша команда</h2>
-                <ul>
+                <h2 class="proficional-photo">Наша команда</h2>
+                <ul class="section-proficional-photo list">
                     <li>
                         <img
                             src="./images/employees/1_Игорь_Демьяненко_Product_Designer.jpg"
