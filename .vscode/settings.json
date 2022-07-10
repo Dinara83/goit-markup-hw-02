@@ -22,5 +22,8 @@
             "editor.fontSize": 15,
             "css.styleSheets": [
             "#/definitions/common/properties/internalConsoleOptions"
+            ],
+            "cSpell.words": [
+                "Monsarato"
             ]
 }

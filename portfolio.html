@@ -5,43 +5,51 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href=https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
 </html>
 <body>
            <!-- Навигация -->
         <header class="portfolio-header">
-            <div class="conteiner">
             <nav class="portfolio-nav list">
-                <a class="logo-style link" href="./index.html" lang="en"
+                <a class="logo link" href="./index.html" lang="en"
                     >Web<span class="logo-studio link">Studio</span></a>
-                    <ul class="site-portfolio-nav list">
-                    <li class="item" href="./index.html"><a class="menu-portfolio-link link" 
-                        href="/">Студия</a></li>
-                    <li class="item"><a class="menu-portfolio-link link"
+                    <ul class="site-portfolio list">
+                    <li class="menu-portfolio-item">
+                        <a class="menu-portfolio-link link" 
+                        href="./index.html">Студия</a></li>
+                    <li class="menu-portfolio-item">
+                        <a class="menu-portfolio-link current"
                          href="./portfolio.html">Портфолио</a></li>
-                    <li class="item"><a class="menu-portfolio-link link" 
+                    <li class="menu-portfolio-item">
+                        <a class="menu-portfolio-link link" 
                         href="./portfolio.html">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="portfolio-auth-nav list">
+            <ul class="portfolio-contact list">
                 <li><a class="portfolio-contact">info@devstudio.com</a></li>
                 <li><a class="portfolio-contact">+38 096 111 11 11</a></li>
             </ul>
-            </div>
         </header>
-
         <mein>
             <!-- Фильтр -->
-            <section class="filter list"></section>>
-                <h1 class="filter-hidden">Кнопки</h1>
-                <ul class="filter-button list">
-                    <li class="style-btm" type="filter-button">Все</li>
-                    <li class="style-btm" type="filter-button">Веб-сайты</li>
-                    <li class="style-btm" type="filter-button">Приложения</li>
-                    <li class="style-btm" type="filter-button">Дизайн</li>
-                    <li class="style-btm" type="filter-button">Маркетинг</li>
-                </ul>
+            <section class="filter-button"></section>>
+                <h1 class="filter-button-hidden">Кнопки</h1>
+                    <button class="style-button" type="button">Все</button>
+                    <button class="style-button link" type="button">Веб-сайты</button>
+                    <button class="style-button link" type="filter-button">Приложения</button>
+                    <button class="style-button link" type="filter-button">Дизайн</button>
+                    <button class="style-button link" type="filter-button">Маркетинг</button>
+                    <!-- type="filter-button -->
+            </section>
+            <section>
+
             </section>
         </mein>
 </body>
