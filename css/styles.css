@@ -6,37 +6,54 @@
 /* :root {
     --primary-font 
     --secondary-font
-    --primary-text-color-theme-dark
+    --primary-text-color: #212121;
     --primary-text-color-theme-light
     --secondery-text-color-theme-dark
     --secondary-text-color-theme-dark */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+}
+
 body {
-  width: 1600px;
-  height: 2349px;
-  font-family: "Raleway", sans-serif
-  background-color: #FFFFFF;
-  color: #212121;
-  /* display: flex;
+    background-color: #ffffff;
+    color: var(--title-text-color);
+}
+/* .width: 1600px;
+  .height: 2349px;
+  .font-family: "Roboto", sans-serif
+  .font-style: "Medium", sans-serif
+  .
+  . */
+/* display: flex;
   align-items: center;
   justify-content: center; */
-}
 
-}
+/* Для второго листа
+.Font family: Roboto
+Font style: Medium
+Font size: 16px
+Line height: 26px
+Line height: 139%
+Align: Center
+Vertical align: Top
+Letter spacing: 3% */
+
 .list {
     list-style: none;
 }
 
-.link {
+/* .link {
     text-decoration: none;
+} */
+
+.logo-style {
+    color: var(--accent-color);
 }
-
-
-.logo {
-    color: #000;
-}
-
-.list {
-    list-style: none;
+.logo-studio {
+    color: var(--title-text-color);
 }
 /* Site nav */
 /* .site-nav .link {
@@ -44,10 +61,29 @@ body {
 } */
 
 .site-nav .menu-link:hover {
-    color: #2196F3;
+    color: #2196f3;
 }
+.site-portfolio-nav .menu-portfolio-link:hover,
+.site-portfolio-nav .menu-portfolio-link:focus {
+    color: #2196f3;
+}
+
 .auth-nav .contact:hover {
-    color: #2196F3;
+    color: #2196f3;
+}
+
+/* section filter */
+
+.button {
+    color: #000;
+}
+.button filter:hover,
+.button filter:focus {
+    color: #fff;
+}
+
+.section-title {
+    color: #212121;
 }
 .visually-hidden {
     position: absolute;
@@ -60,4 +96,3 @@ body {
     white-space: nowrap;
     border: 0;
 }
-
