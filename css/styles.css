@@ -5,31 +5,29 @@
     --primary-color: #757575;
     --font: black;
     --primary-theme-dark: #2f303a;
-    --primary-theme-light: #e5e5e5;
+    --primary-theme-light: #eeeeee;
     --accent-color: #2196f3;
     --primary-bg-color: #fff;
     --primary-button-color: #f5f4fa;
 }
 
-.list {
+/* .list {
     list-style: none;
 }
 
 .link {
     text-decoration: none;
-}
+} */
 
 .body {
     font-family: var(--primary-font);
+    font-weight: 400;
     font-style: normal;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 2%;
     background-color: var(--primary-bg-color);
-    color: var(--basic-color);
 }
-
-/* Навигация */
 
 .container {
     width: 1200px;
@@ -50,6 +48,7 @@
 
 .menu-link,
 .menu-portfolio-link {
+    font-family: var(--primary-font);
     font-style: Medium;
     font-weight: 500;
     font-size: 14px;
@@ -66,17 +65,9 @@
 }
 
 .contact-emeil-link,
-.portfolio-contact {
-    font-weight: 122px;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 2%;
-    color: var(--primary-color);
-}
-
 .contact-phone-nomber-link,
 .portfolio-contact {
-    font-weight: 122px;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 2%;
@@ -104,21 +95,23 @@
     background-color: var(--primary-theme-dark);
 }
 
-.hero-title {
+.hero {
+    font-family: var(--primary-font);
+    font-style: Black;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 6%;
-    text-transform: uppercase;
     color: var(--primary-bg-color);
 }
 
 .btm {
+    font-family: var(--primary-font);
+    font-style: Bold;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
     text-align: center;
     letter-spacing: 6%;
     background-color: var(--accent-color);
@@ -127,7 +120,9 @@
 
 /* Особенности */
 
-.visually-hidden {
+.visually-hidden,
+.button-hidden,
+.project-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -140,16 +135,19 @@
 }
 
 .main-title {
+    font-family: var(--primary-font);
     font-style: Bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 3%;
-    text-transform: uppercase;
     color: var(--basic-color);
 }
 
 .suptitle {
+    font-family: var(--primary-font);
     font-style: 'Regular';
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 3%;
@@ -161,17 +159,18 @@
 
 .activity-title,
 .proficional-title {
-    font-style: bold;
+    font-family: var(--primary-font);
+    font-style: Bold;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 3%;
     text-align: center;
-    text-transform: uppercase;
     color: var(--basic-color);
 }
 
 .prof-title {
-    font-style: bold;
+    font-family: var(--primary-font);
+    font-style: Bold;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 3%;
@@ -179,74 +178,82 @@
 }
 
 .proficional-team {
+    font-family: var(--primary-font);
     font-style: 'Regular';
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 3%;
-    color: var(--primary-color);    
+    color: var(--primary-color);
 }
 
-.container-middle {
-    background-color: ;
-}
+/* Фильтер */
 
 .filter {
     background-color: var(--primary-theme-light);
+}
 
-}
-.button-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-}
 .modal-btm {
+    font-family: var(--primary-font);
+    font-style: 'Medium';
     font-size: 16px;
-    line-height: 26px;
-    line-height: 139%;
+    line-height: 1.63;
     align-items: center;
-    vertical-align: Top;
     letter-spacing: 3%;
-    effect style: shadow-middle;
-    effect: drop-shadow;
-    radius: 2px;
-    offset: 0px, 2px;
-    border: none;
-    color: rgba(0, 0, 0, 0.12);
+    color: var(--basic-color);
+}
+
+.main-btm {
+    background-color: var(--accent-color);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+}
+.project-title {
+    font-family: var(--primary-font);
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 6%;
+    color: var(--basic-color);
+}
+.contant {
+    font-family: var(--primary-font);
+    font-style: 'Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 3%;
+    color: var(--primary-color);
 }
 
 /* Футер */
 
-.under {    
+.under {
     font-family: var(--primary-font);
+    font-weight: 400;
     font-style: normal;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 2%;
-    background-color: var(--primary-theme-dark)
+    background-color: var(--primary-theme-dark);
 }
 
 .logo-foot {
-font-family: var(--secondary-font);
-color: var(--accent-color);
+    font-family: var(--secondary-font);
+    color: var(--accent-color);
 }
 
 .logo-studio-foot {
-font-family: var(--secondary-font);
-color: var(--primary-bg-color);
+    font-family: var(--secondary-font);
+    color: var(--primary-bg-color);
 }
 
 .under-address {
+    font-family: var(--primary-font);
     font-style: 'Regular';
     font-size: 14px;
     line-height: 1.71;
@@ -255,22 +262,10 @@ color: var(--primary-bg-color);
 }
 
 .under-contact {
+    font-family: var(--primary-font);
+    font-style: 'Regular';
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 3%;
     color: rgba(255, 255, 255, 0.6);
-;
 }
-
-/* .element {
-  margin-right: auto;
-  margin-left: auto;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-
-// With logical properties
-.element {
-  margin-inline: auto;
-  border-block: 1px solid #eee;
-} */

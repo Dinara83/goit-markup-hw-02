@@ -59,10 +59,10 @@ h6 {
 /*
   9. Create a root stacking context
 */
-/* #root,
+#root,
 #__next {
     isolation: isolate;
-} */
+}
 a {
     text-decoration: none;
 }
