@@ -11,16 +11,18 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="./css/recet.css" />
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
 </html>
 <body>
            <!-- Навигация -->
         <header class="portfolio-header">
-            <nav class="portfolio-nav list">
+            <div class="container">
+            <nav class="portfolio-nav">
                 <a class="logo link" href="./index.html" lang="en"
                     >Web<span class="logo-studio link">Studio</span></a>
-                    <ul class="site-portfolio list">
+                    <ul class="menu-portfolio list">
                     <li class="menu-portfolio-item">
                         <a class="menu-portfolio-link link" 
                         href="./index.html">Студия</a></li>
@@ -36,21 +38,117 @@
                 <li><a class="portfolio-contact">info@devstudio.com</a></li>
                 <li><a class="portfolio-contact">+38 096 111 11 11</a></li>
             </ul>
+            </div>
         </header>
         <mein>
+            <div class="container-middle">
             <!-- Фильтр -->
-            <section class="filter-button"></section>>
-                <h1 class="filter-button-hidden">Кнопки</h1>
-                    <button class="style-button" type="button">Все</button>
-                    <button class="style-button link" type="button">Веб-сайты</button>
-                    <button class="style-button link" type="filter-button">Приложения</button>
-                    <button class="style-button link" type="filter-button">Дизайн</button>
-                    <button class="style-button link" type="filter-button">Маркетинг</button>
-                    <!-- type="filter-button -->
+            <section class="filter-button">
+                <h1 class="button-hidden">Кнопки</h1>
+                    <button class="modal-btn link" type="filter-button">Все</button>
+                    <button class="modal-btn link" type="filter-button">Веб-сайты</button>
+                    <button class="modal-btn link" type="filter-button">Приложения</button>
+                    <button class="modal-btn link" type="filter-button">Дизайн</button>
+                    <button class="modal-btn link" type="filter-button">Маркетинг</button>
             </section>
-            <section>
 
+            <!-- Проект -->
+            <section class="project">
+                <h2 class="project-hidden">Проект</h2>
+                <ul class="project list">
+                    <li>
+                        <img
+                            src="./images/portfolio/Технокряк.jpg"
+                            alt="Веб-сайт"
+                            width="370"
+                            height="294"
+                        />
+                        <h3 class="title">Технокряк</h3>
+                        <p lang="en">Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img
+                            src="./images/portfolio/New_Orlean.jpg"
+                            alt="Дизайн"
+                            width="370"
+                            height="294"
+                        />
+                        <h3 class="title">New Orlean</h3>
+                        <p lang="en">Дизайн</p>
+                    </li>
+                    <li>
+                        <img
+                            src="./images/portfolio/Ресторан_Seafood.jpg"
+                            alt="Приложение"
+                            width="370"
+                            height="294"
+                        />
+                        <h3 class="title">Ресторан Seafood</h3>
+                        <p lang="en">Приложение</p>
+                    </li>
+                    <li>
+                        <img
+                            src="./images/portfolio/Проект_Prime.jpg"
+                            alt="Маркетинг"
+                            width="370"
+                            height="294"
+                        />
+                        <h3 class="title">Проект Prime</h3>
+                        <p lang="en">Маркетинг</p>
+                    </li>
+                    <li>
+                        <img
+                            src="./images/portfolio/Проект_Boxes.jpg"
+                            alt="Приложение"
+                            width="370"
+                            height="294"
+                        />
+                        <h3 class="title">Проект Boxes</h3>
+                        <p lang="en">Приложение</p>
+                    </li>
+                    <li>
+                        <img
+                            src="./images/portfolio/Inspiration.jpg"
+                            alt="Веб-сайт"
+                            width="370"
+                            height="294"
+                        />
+                        <h3 class="title">Проект Boxes</h3>
+                        <p lang="en">Inspiration has no Borders</p>
+                    </li>
+                    <li>
+                        <img
+                            src="./images/portfolio/Limited_Edition.jpg"
+                            alt="Дизайн"
+                            width="370"
+                            height="294"
+                        />
+                        <h3 class="title">Издание Limited Edition</h3>
+                        <p lang="en">Дизайн</p>
+                    </li>
+                    <li>
+                        <img
+                            src="images/portfolio/Проект_LAB.jpg"
+                            alt="Маркетинг"
+                            width="370"
+                            height="294"
+                        />
+                        <h3 class="title">Проект LAB</h3>
+                        <p lang="en">Маркетинг</p>
+                    </li>
+                    <li>
+                        <img
+                            src="images/portfolio/Growing_Business.jpg"
+                            alt="Приложение"
+                            width="370"
+                            height="294"
+                        />
+                        <h3 class="title">Growing Business</h3>
+                        <p lang="en">Приложение</p>
+                    </li>
+                </ul>
             </section>
+            </div>
         </mein>
 </body>
 </html>
