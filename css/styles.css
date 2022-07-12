@@ -24,7 +24,6 @@
     font-style: normal;
     font-size: 14px;
     line-height: 1.14;
-    text-align: center;
     letter-spacing: 2%;
     background-color: var(--primary-bg-color);
     color: var(--basic-color);
@@ -51,7 +50,6 @@
 
 .menu-link,
 .menu-portfolio-link {
-    font-family: var(--primary-font);
     font-style: Medium;
     font-weight: 500;
     font-size: 14px;
@@ -69,7 +67,6 @@
 
 .contact-emeil-link,
 .portfolio-contact {
-    font-family: var(--primary-font);
     font-weight: 122px;
     font-size: 14px;
     line-height: 1.14;
@@ -79,7 +76,6 @@
 
 .contact-phone-nomber-link,
 .portfolio-contact {
-    font-family: var(--primary-font);
     font-weight: 122px;
     font-size: 14px;
     line-height: 1.14;
@@ -104,19 +100,11 @@
 
 /* Шапка сайта */
 
-.suptitle-theme-dark {
-    color: var(--primary-theme-dark);
-}
-.suptitle-theme-light {
-    color: var(--primary-theme-light);
-}
-
 .hero {
     background-color: var(--primary-theme-dark);
 }
 
 .hero-title {
-    font-family: var(--primary-font);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -127,7 +115,6 @@
 }
 
 .btm {
-    font-family: var(--primary-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -153,7 +140,6 @@
 }
 
 .main-title {
-    font-family: var(--primary-font);
     font-style: Bold;
     font-size: 14px;
     line-height: 1.14;
@@ -163,7 +149,6 @@
 }
 
 .suptitle {
-    font-family: var(--primary-font);
     font-style: 'Regular';
     font-size: 14px;
     line-height: 1.71;
@@ -176,7 +161,6 @@
 
 .activity-title,
 .proficional-title {
-    font-family: var(--primary-font);
     font-style: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -187,7 +171,6 @@
 }
 
 .prof-title {
-    font-family: var(--primary-font);
     font-style: bold;
     font-size: 16px;
     line-height: 1.88;
@@ -196,7 +179,6 @@
 }
 
 .proficional-team {
-    font-family: var(--primary-font);
     font-style: 'Regular';
     font-size: 16px;
     line-height: 1.88;
@@ -208,12 +190,11 @@
     background-color: ;
 }
 
-.filter-button {
-    background-color: var(--primary-button-color);
+.filter {
+    background-color: var(--primary-theme-light);
 
 }
 .button-hidden {
-    font-family: var(--primary-font);
     position: absolute;
     width: 1px;
     height: 1px;
@@ -225,7 +206,6 @@
     border: 0;
 }
 .modal-btm {
-    font-family: var(--primary-font);
     font-size: 16px;
     line-height: 26px;
     line-height: 139%;
@@ -245,22 +225,52 @@
     background-color: var(--accent-color);
 }
 
-.footer {
+/* Футер */
+
+.under {    
     font-family: var(--primary-font);
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 26px;
+    line-height: 1.19;
     letter-spacing: 2%;
-    background-color: var(--primary-font);
-    color: var(--basic-color);
-}
-.under {
-    font-family: var(--primary-font);
-    font-style: 'Regular';
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 2%;
-    background-color: var(--primary-font);
-    color: var(--basic-color);
+    background-color: var(--primary-theme-dark)
 }
 
+.logo-foot {
+font-family: var(--secondary-font);
+color: var(--accent-color);
+}
+
+.logo-studio-foot {
+font-family: var(--secondary-font);
+color: var(--primary-bg-color);
+}
+
+.under-address {
+    font-style: 'Regular';
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 3%;
+    color: var(--primary-bg-color);
+}
+
+.under-contact {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 3%;
+    color: rgba(255, 255, 255, 0.6);
+;
+}
+
+/* .element {
+  margin-right: auto;
+  margin-left: auto;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+// With logical properties
+.element {
+  margin-inline: auto;
+  border-block: 1px solid #eee;
+} */
