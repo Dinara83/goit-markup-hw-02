@@ -11,18 +11,17 @@
     --primary-button-color: #f5f4fa;
 }
 
-/* .list {
+.list {
     list-style: none;
 }
 
 .link {
     text-decoration: none;
-} */
+}
 
 .body {
     font-family: var(--primary-font);
     font-weight: 400;
-    font-style: normal;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 2%;
@@ -38,18 +37,25 @@
 
 .logo {
     font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 3%;
     color: var(--accent-color);
 }
 
 .logo-studio {
     font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 3%;
     color: var(--basic-color);
 }
 
 .menu-link,
 .menu-portfolio-link {
     font-family: var(--primary-font);
-    font-style: Medium;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -67,6 +73,7 @@
 .contact-emeil-link,
 .contact-phone-nomber-link,
 .portfolio-contact {
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -95,25 +102,32 @@
     background-color: var(--primary-theme-dark);
 }
 
-.hero {
+.hero-title {
     font-family: var(--primary-font);
-    font-style: Black;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 6%;
+    text-transform: uppercase;
     color: var(--primary-bg-color);
 }
 
-.btm {
+.btn {
     font-family: var(--primary-font);
-    font-style: Bold;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    display: flex;
     text-align: center;
     letter-spacing: 6%;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+}
+
+.btn:hover,
+.btn:focus {
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
 }
@@ -136,17 +150,16 @@
 
 .main-title {
     font-family: var(--primary-font);
-    font-style: Bold;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 3%;
+    text-transform: uppercase;
     color: var(--basic-color);
 }
 
 .suptitle {
     font-family: var(--primary-font);
-    font-style: 'Regular';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -160,26 +173,27 @@
 .activity-title,
 .proficional-title {
     font-family: var(--primary-font);
-    font-style: Bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 3%;
     text-align: center;
+    text-transform: uppercase;
     color: var(--basic-color);
 }
 
 .prof-title {
     font-family: var(--primary-font);
-    font-style: Bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 3%;
+    text-transform: uppercase;
     color: var(--basic-color);
 }
 
 .proficional-team {
     font-family: var(--primary-font);
-    font-style: 'Regular';
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 3%;
@@ -188,22 +202,21 @@
 
 /* Фильтер */
 
-.filter {
-    background-color: var(--primary-theme-light);
-}
-
-.modal-btm {
+.filter-button {
     font-family: var(--primary-font);
-    font-style: 'Medium';
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    align-items: center;
     letter-spacing: 3%;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
     color: var(--basic-color);
 }
 
 .main-btm {
     background-color: var(--accent-color);
+    color: var(--primary-bg-color);
 }
 
 .modal-btn:hover,
@@ -213,16 +226,15 @@
 }
 .project-title {
     font-family: var(--primary-font);
-    font-style: Bold;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 6%;
+    text-transform: uppercase;
     color: var(--basic-color);
 }
 .contant {
     font-family: var(--primary-font);
-    font-style: 'Regular';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
@@ -244,17 +256,25 @@
 
 .logo-foot {
     font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 3%;
     color: var(--accent-color);
 }
 
 .logo-studio-foot {
     font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 3%;
     color: var(--primary-bg-color);
 }
 
 .under-address {
     font-family: var(--primary-font);
-    font-style: 'Regular';
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 3%;
@@ -263,7 +283,7 @@
 
 .under-contact {
     font-family: var(--primary-font);
-    font-style: 'Regular';
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 3%;
