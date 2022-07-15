@@ -91,11 +91,6 @@
     color: var(--accent-color);
 }
 
-.current {
-    text-decoration: none;
-    color: var(--accent-color);
-}
-
 /* Шапка сайта */
 
 .hero {
@@ -113,7 +108,7 @@
     color: var(--primary-bg-color);
 }
 
-.btn {
+.button-hero {
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 16px;
@@ -122,14 +117,13 @@
     text-align: center;
     letter-spacing: 6%;
     cursor: pointer;
+}
+.change {
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
 }
-
-.btn:hover,
-.btn:focus {
-    background-color: var(--accent-color);
-    color: var(--primary-bg-color);
+.button-hero:hover {
+    background-color: #188ce8;
 }
 
 /* Особенности */
@@ -154,7 +148,6 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 3%;
-    text-transform: uppercase;
     color: var(--basic-color);
 }
 
@@ -178,7 +171,6 @@
     line-height: 1.16;
     letter-spacing: 3%;
     text-align: center;
-    text-transform: uppercase;
     color: var(--basic-color);
 }
 
@@ -188,7 +180,6 @@
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 3%;
-    text-transform: uppercase;
     color: var(--basic-color);
 }
 
@@ -230,7 +221,6 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 6%;
-    text-transform: uppercase;
     color: var(--basic-color);
 }
 .contant {
@@ -238,7 +228,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 3%;
+    letter-spacing: 2%;
     color: var(--primary-color);
 }
 
