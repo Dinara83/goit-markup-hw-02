@@ -39,4 +39,8 @@
             "css.styleSheets": [
             "#/definitions/common/properties/internalConsoleOptions"
             ]
+},
+            "cSpell.words": [
+                "Monsarato"
+            ]
 }
